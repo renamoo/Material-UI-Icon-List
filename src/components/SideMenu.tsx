@@ -20,7 +20,8 @@ const styles = (theme: Theme): StyleRules => createStyles({
     },
     list: {
         overflowY: 'scroll',
-        overflowX: 'hidden'
+        overflowX: 'hidden',
+        width: '300px'
     },
     menu: {
         height: '30px',
