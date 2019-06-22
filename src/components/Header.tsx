@@ -34,6 +34,10 @@ const Header: React.FC<Props> = ({ classes, setSelect }: Props) => {
         );
     }, []);
 
+    const openGithub = () => {
+        window.open('https://github.com/renamoo/Material-UI-Icon-List.git', '_blank');
+    }
+
     return (
         <div className={classes.header}>
             <div className={classes.title}>Material-UI Built-in Icons</div>
@@ -41,7 +45,7 @@ const Header: React.FC<Props> = ({ classes, setSelect }: Props) => {
                 See All
             </Button>
             <div style={{ lineHeight: '60px', width: '100px' }}>
-                <IconButton aria-label="Github" color="inherit" >
+                <IconButton aria-label="Github" color="inherit" onClick={openGithub}>
                     <Icon className={clsx(classes.icon, 'fab fa-github')} color="inherit" fontSize="inherit" />
                 </IconButton>
             </div>
