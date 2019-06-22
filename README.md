@@ -1,5 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+  
+This is a searchable list for all Material-UI's built-in icons.  
+Hope it helps! :paw_prints:
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
