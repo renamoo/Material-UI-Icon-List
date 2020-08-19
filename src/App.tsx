@@ -1,4 +1,3 @@
-import * as uiIcons from '@material-ui/icons';
 import React, { Suspense, useState } from 'react';
 import './App.css';
 import Header from './components/Header';
@@ -8,7 +7,6 @@ const Content = React.lazy(() => import('./components/Content'));
 
 const App: React.FC = () => {
   const [select, setSelect] = useState('');
-  const names = Object.keys(uiIcons);
 
   return (
     <div className="App">
